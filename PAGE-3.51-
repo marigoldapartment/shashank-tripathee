@@ -1,0 +1,14 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+unsigned int x=-5;
+int y=6;
+clrscr();
+cout<<"\nthe relational result is"<<(x==y);
+if (x==y)
+cout<<"\nx is greater";
+else
+cout<<"\ny is greater";
+getch();
+}
