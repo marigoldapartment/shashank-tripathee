@@ -1,18 +1,25 @@
 #include<iostream.h>
 #include<conio.h>
-class MyClass
+class Employee
 {
+private:
+int Salary;
 public:
-int x;
-public:
-int y;
+void SetSalary(int s)
+{
+Salary=s;
+}
+int getSalary()
+{
+return Salary;
+}
 };
 int main()
-{
-MyClass MyObj;
-MyObj.x=25;
-MyObj.y=15;
-cout<<MyObj.x<<"\n"<<MyObj.y;
+{                                                             
+
+Employee MyObj;
+MyObj.SetSalary(5000);
+cout<<MyObj.getSalary();
 getch();
 clrscr();
 }
