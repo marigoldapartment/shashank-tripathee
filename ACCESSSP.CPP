@@ -1,0 +1,17 @@
+#include<iostream.h>
+#include<conio.h>
+class MyClass
+{
+public:
+int x;
+int y;
+};
+int main()
+{
+MyClass MyObj;
+MyObj.x=25;
+MyObj.y=15;
+cout<<MyObj.x<<"\n"<<MyObj.y;
+getch();
+clrscr();
+}
